@@ -1,12 +1,13 @@
 'use client'
 import Image from "next/image";
 import React from "react";
+import cardbg from '@/public/images/bg/Card-bg.webp'
 export default function Card({ img, heading, text, bg, imgsize }) {
   const cardStyle = {
     backgroundImage: `
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-    url('https://demo.brittosoft.com/wp-content/uploads/2024/11/Add-a-heading-4-1.webp')
-  `,
+    url(${cardbg.src})
+    `,
     backgroundPosition: "center center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",

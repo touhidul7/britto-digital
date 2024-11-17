@@ -2,6 +2,10 @@ import Button from "./Components/Button";
 import Card from "./Components/Card";
 import Futureimg from "@/public/images/card/social-media.png";
 import businessgrow from "@/public/images/card/business.png";
+import Image from "next/image";
+import client1 from "@/public/images/temp/client-1.jpg";
+import review from "@/public/images/client.jpg";
+import Graphbg from "./Components/Graphbg";
 export default function Home() {
   return (
     <>
@@ -144,6 +148,178 @@ export default function Home() {
             />
           </div>
         </div>
+        {/* freedom */}
+        <div className="">
+          <div className="heading text-[40px] font-extrabold flex gap-2 items-center justify-center py-10">
+            <span className="leading-[65px]">
+              কীভাবে ভিডিও এডিটিং স্কিল দিয়ে আমি
+            </span>{" "}
+            ​ <span className="highlight">ফিন্যান্সিয়াল ফ্রিডম</span>{" "}
+            <span className="leading-[65px]">পেলাম</span>
+          </div>
+          <div className="grid lg:grid-cols-2 gap-5 items-stretch justify-center lg:w-[70%] m-auto">
+            <div className="content text-xl ">
+              Hello everyone, <br />
+              আমি আলী ফিয়াদ রুদ্র, কাজ করছি ফুলটাইম ফ্রিল্যান্স ডিজিটাল
+              মার্কেটার এবং ওয়েব ডেভেলপার হিসেবে National এবং International
+              অসংখ্য ব্র্যান্ড এবং ব্যবসার সাথে গত ৫ বছর ধরে। আমার ডিজিটাল
+              মার্কেটিং এবং ওয়েব ডেভেলপমেন্টের প্রতি ভালোবাসাটা অনেকটাই আর্লি
+              স্টেজে হয়ে যাওয়াতে আমি কখনো এটাকে কাজ হিসেবে ধরিনি বরং সবসময়
+              পেশনের জায়গা থেকে এটাকে করেছি। আমার সবচেয়ে স্ট্রং পয়েন্ট- আমি
+              ট্রেন্ড এবং ট্রেন্ড থেকে একধাপ এগিয়ে থাকার চেষ্টা করেছি সবসময়, যার
+              ফলে আমি আপনাদের যেইসকল বিষয় নিয়ে শেখাতে পারবো তা ১০-২০টি কোর্স
+              করেও কখনো খুঁজে পাবেন না। আমি বিশ্বাস করি যে, ডিজিটাল মার্কেটিং
+              এবং ওয়েব ডেভেলপমেন্টে সফল হতে হলে আপনাকে সবসময় নতুন কৌশল এবং
+              প্রযুক্তি শিখতে হবে।
+            </div>
+            <div className="image">
+              <Image
+                className="w-[84%] rounded-[20px]"
+                src={client1}
+                alt="client"
+              />
+            </div>
+          </div>
+        </div>
+        {/* Review-- */}
+        <div className="grid lg:grid-cols-2 gap-5 items-stretch justify-center lg:w-[70%] m-auto py-20">
+          <div className="image h-[]">
+            <Image src={review} className="rounded-2xl" alt="client" />
+          </div>
+          <div className="content">
+            <h2 className="text-[84px] font-extrabold">ক্লায়েন্ট</h2>
+            <h3 className="text-[#1A015E] text-[200px] font-extrabold leading-[1]">
+              রিভিউ
+            </h3>
+          </div>
+        </div>
+
+        {/* Why Canva pro is best for you */}
+        <Graphbg
+          className={"py-10"}
+          content={
+            <>
+              <div>
+                <div className="heading text-[40px] font-extrabold flex gap-2 items-center justify-center py-10 text-white">
+                  <span className="leading-[65px]">কেন এই কোর্সটি</span> ​{" "}
+                  <span className="highlight">সবচেয়ে এডভান্স এবং ইউনিক?</span>{" "}
+                </div>
+
+                <div className="grid lg:grid-cols-2 gap-5 items-stretch justify-center lg:w-[70%] m-auto py-5">
+                  <Card
+                    img={Futureimg}
+                    heading={"ফিউচার ইজ লীডস"}
+                    bg={"white"}
+                    text={
+                      <>
+                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
+                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
+                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
+                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
+                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
+                        থাকবেন নাকি এগিয়ে যাবেন।
+                      </>
+                    }
+                  />
+                  <Card
+                    img={Futureimg}
+                    heading={"ফিউচার ইজ লীডস"}
+                    bg={"white"}
+                    text={
+                      <>
+                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
+                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
+                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
+                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
+                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
+                        থাকবেন নাকি এগিয়ে যাবেন।
+                      </>
+                    }
+                  />
+                </div>
+                <div className="grid lg:grid-cols-3 gap-5 items-stretch justify-center lg:w-[70%] m-auto py-5">
+                  <Card
+                    img={Futureimg}
+                    heading={"ফিউচার ইজ লীডস"}
+                    bg={"white"}
+                    text={
+                      <>
+                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
+                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
+                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
+                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
+                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
+                        থাকবেন নাকি এগিয়ে যাবেন।
+                      </>
+                    }
+                  />
+                  <Card
+                    img={Futureimg}
+                    heading={"ফিউচার ইজ লীডস"}
+                    bg={"white"}
+                    text={
+                      <>
+                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
+                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
+                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
+                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
+                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
+                        থাকবেন নাকি এগিয়ে যাবেন।
+                      </>
+                    }
+                  />
+                  <Card
+                    img={Futureimg}
+                    heading={"ফিউচার ইজ লীডস"}
+                    bg={"white"}
+                    text={
+                      <>
+                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
+                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
+                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
+                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
+                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
+                        থাকবেন নাকি এগিয়ে যাবেন।
+                      </>
+                    }
+                  />
+                </div>
+                <div className="grid lg:grid-cols-2 gap-5 items-stretch justify-center lg:w-[70%] m-auto py-5">
+                  <Card
+                    img={Futureimg}
+                    heading={"ফিউচার ইজ লীডস"}
+                    bg={"white"}
+                    text={
+                      <>
+                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
+                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
+                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
+                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
+                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
+                        থাকবেন নাকি এগিয়ে যাবেন।
+                      </>
+                    }
+                  />
+                  <Card
+                    img={Futureimg}
+                    heading={"ফিউচার ইজ লীডস"}
+                    bg={"white"}
+                    text={
+                      <>
+                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
+                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
+                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
+                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
+                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
+                        থাকবেন নাকি এগিয়ে যাবেন।
+                      </>
+                    }
+                  />
+                </div>
+              </div>
+            </>
+          }
+        />
       </main>
     </>
   );
