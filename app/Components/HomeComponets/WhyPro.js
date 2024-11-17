@@ -10,7 +10,7 @@ export default function WhyPro() {
         <>
             <div className="why-pro">
                 <div className="heading text-[50px] font-extrabold flex gap-2 items-center justify-center py-10">
-                    <span className="leading-[65px]">কেন নিবেন</span> ​{" "}
+                    <span className="leading-[65px]">Why You Need</span> ​{" "}
                     <span className="highlight">Canva Pro</span>
                 </div>
                 <div className="content text-[21px] w-[90%] lg:w-[80%] m-auto text-center">
