@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #F5F6FF;
   --foreground: #171717;
   --hind: "Hind Siliguri", sans-serif;
   --poppins: "Poppins", sans-serif;
@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
+    --background: #F5F6FF;
     --foreground: #000000;
   }
 }
