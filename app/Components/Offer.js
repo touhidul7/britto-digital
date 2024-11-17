@@ -10,7 +10,7 @@ export default function Offer() {
 
       <div className="content text-[20px] space-y-4 mt-6">
         <p>
-          ✅ মাত্র <strong>১৯ টাকা মাসিক</strong> এবং <strong>৯৯ টাকা ৬ মাসে</strong> ক্যানভা প্রো সাবস্ক্রিপশন। 
+          ✅ মাত্র <strong>১৯ টাকায় ১ মাস</strong>, <strong>৪৯ টাকায় ৬ মাস</strong> এবং <strong>৯৯ টাকায় ১ বছর</strong> ক্যানভা প্রো সাবস্ক্রিপশন। 
           বাজারের সেরা দামে সর্বোচ্চ সুবিধা উপভোগ করুন।
         </p>
 
