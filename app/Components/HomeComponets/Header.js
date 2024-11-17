@@ -10,7 +10,7 @@ export default function Header() {
         Canva Pro অ্যাকাউন্ট কি ব্যবহার করতে চান?
       </div>
       <p className="text-xl font-medium leading-10">
-        মাত্র ১৯ টাকায় ১ মাস, ৪৯ টাকায় ৬ মাস এবং ৯৯ টাকায় ১ বছরের জন্য পান Canva Pro অ্যাকাউন্ট। 
+        মাত্র <span className='font-[Poppins]'>১</span>৯ টাকায় <span className='font-[Poppins]'>১</span> মাস, ৪৯ টাকায় ৬ মাস এবং ৯৯ টাকায় <span className='font-[Poppins]'>১</span> বছরের জন্য পান Canva Pro অ্যাকাউন্ট। 
         সহজেই নিজের ডিজাইনিং দক্ষতা উন্নত করুন।
       </p>
       <div className="heading text-[#1D0079] text-[80px] font-bold font-[Poppins]">
