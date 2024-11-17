@@ -1,7 +1,14 @@
 import React from 'react'
 import Card from '../Card'
 import Graphbg from '../Graphbg'
-import Futureimg from "@/public/images/card/social-media.png";
+import Futureimg from "@/public/images/card/linkedin.png";
+import designimg from "@/public/images/whycanva/design.png";
+import premiumimg from "@/public/images/whycanva/premium.png";
+import sharingimg from "@/public/images/whycanva/share.png";
+import stockimg from "@/public/images/whycanva/stock.png";
+import aiimg from "@/public/images/whycanva/ai.png"
+import easyimg from '@/public/images/whycanva/easy.png'
+import supportimg from '@/public/images/whycanva/support.png'
 export default function WhyCanva() {
   return (
     <Graphbg
@@ -10,117 +17,90 @@ export default function WhyCanva() {
             <>
               <div>
                 <div className="heading text-[40px] font-extrabold flex gap-2 items-center justify-center py-10 text-white">
-                  <span className="leading-[65px]">কেন এই কোর্সটি</span> ​{" "}
-                  <span className="highlight">সবচেয়ে এডভান্স এবং ইউনিক?</span>{" "}
+                  <span className="leading-[65px]">কেন Canva Pro</span> ​{" "}
+                  <span className="highlight">সবচেয়ে সাশ্রয়ী এবং কার্যকর?</span>{" "}
                 </div>
 
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto py-5">
                   <Card
-                    img={Futureimg}
-                    heading={"ফিউচার ইজ লীডস"}
+                    img={designimg}
+                    heading={"অসীম ডিজাইন সুবিধা"}
                     bg={"white"}
                     text={
                       <>
-                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
-                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
-                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
-                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
-                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
-                        থাকবেন নাকি এগিয়ে যাবেন।
+                        Canva Pro-এর মাধ্যমে আপনি পেয়ে যাবেন অসীম ডিজাইন টেমপ্লেট, প্রিমিয়াম
+                        ফিচার এবং প্রফেশনাল গ্রাফিক্স। এটি আপনাকে সময় বাঁচাবে এবং ডিজাইনিংকে 
+                        আরও সহজ করবে।
                       </>
                     }
                   />
                   <Card
-                    img={Futureimg}
-                    heading={"ফিউচার ইজ লীডস"}
+                    img={premiumimg}
+                    heading={"সাশ্রয়ী খরচে প্রিমিয়াম"}
                     bg={"white"}
                     text={
                       <>
-                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
-                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
-                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
-                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
-                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
-                        থাকবেন নাকি এগিয়ে যাবেন।
+                        মাত্র ১৯ টাকা মাসিক এবং ৯৯ টাকা ৬ মাসে Canva Pro ব্যবহার করুন। 
+                        বাজারের সেরা সেবা, সেরা দামে!
                       </>
                     }
                   />
                 </div>
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto py-5">
                   <Card
-                    img={Futureimg}
-                    heading={"ফিউচার ইজ লীডস"}
+                    img={sharingimg}
+                    heading={"সহজ শেয়ারিং"}
                     bg={"white"}
                     text={
                       <>
-                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
-                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
-                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
-                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
-                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
-                        থাকবেন নাকি এগিয়ে যাবেন।
+                        সহজেই আপনার ডিজাইন শেয়ার করুন এবং একসাথে টিমের সাথে কাজ করুন। 
+                        কাজের সময় কমান এবং সৃষ্টিশীলতাকে বৃদ্ধি করুন।
                       </>
                     }
                   />
                   <Card
-                    img={Futureimg}
-                    heading={"ফিউচার ইজ লীডস"}
+                    img={stockimg}
+                    heading={"প্রিমিয়াম স্টক ফটো"}
                     bg={"white"}
                     text={
                       <>
-                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
-                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
-                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
-                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
-                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
-                        থাকবেন নাকি এগিয়ে যাবেন।
+                        Canva Pro-এর বিশাল স্টক ফটো লাইব্রেরি থেকে আপনি পাবেন 
+                        মিলিয়ন+ প্রিমিয়াম ছবি যা আপনার প্রজেক্টকে আরও আকর্ষণীয় করবে।
                       </>
                     }
                   />
                   <Card
-                    img={Futureimg}
-                    heading={"ফিউচার ইজ লীডস"}
+                    img={aiimg}
+                    heading={"ডিজাইন এআই"}
                     bg={"white"}
                     text={
                       <>
-                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
-                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
-                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
-                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
-                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
-                        থাকবেন নাকি এগিয়ে যাবেন।
+                        Canva Pro-এর স্মার্ট ডিজাইন টুলস আপনার কাজকে আরও দ্রুত 
+                        এবং স্মার্ট করে তুলবে। সময় বাঁচান, দক্ষতা বাড়ান।
                       </>
                     }
                   />
                 </div>
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto py-5">
                   <Card
-                    img={Futureimg}
-                    heading={"ফিউচার ইজ লীডস"}
+                    img={easyimg}
+                    heading={"সহজ ব্যবহার"}
                     bg={"white"}
                     text={
                       <>
-                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
-                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
-                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
-                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
-                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
-                        থাকবেন নাকি এগিয়ে যাবেন।
+                        Canva Pro-এর ইউজার-ফ্রেন্ডলি ইন্টারফেস আপনাকে দেবে সহজ 
+                        এবং ঝামেলামুক্ত ডিজাইন অভিজ্ঞতা।
                       </>
                     }
                   />
                   <Card
-                    img={Futureimg}
-                    heading={"ফিউচার ইজ লীডস"}
+                    img={supportimg}
+                    heading={"সার্বিক সাপোর্ট"}
                     bg={"white"}
                     text={
                       <>
-                        ফিউচার ইজ লিড জেনারেশন এবং আমরা এখন বসে আছি সেই
-                        ভবিষ্যতের দ্বারপ্রান্তে। যদি আপনি এই পরিবর্তনকে এক্সেপ্ট
-                        করে এগিয়ে যেতে পারেন এবং অন্যদের আগে নিজেকে এই জার্নিতে
-                        শামিল করে নিতে পারেন, তাহলে আপনি সফলতা অন্যদের থেকে
-                        বহুগুণ আগে পেয়ে যাবেন। তবে ডিসিশনটা আপনার, আপনি পিছিয়ে
-                        থাকবেন নাকি এগিয়ে যাবেন।
+                        যেকোনো সমস্যায় আমরা আপনার পাশে আছি। সেরা কাস্টমার সাপোর্ট 
+                        নিশ্চিত করি, আপনাকে আনন্দিত রাখতে।
                       </>
                     }
                   />
