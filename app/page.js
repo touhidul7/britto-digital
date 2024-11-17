@@ -6,31 +6,17 @@ import Image from "next/image";
 import client1 from "@/public/images/temp/client-1.jpg";
 import review from "@/public/images/client.jpg";
 import Graphbg from "./Components/Graphbg";
+import Accordion from "./Components/accordion/Accordion";
+import Accordionitem from "./Components/accordion/Accordionitem";
+import Header from "./Components/HomeComponets/Header";
 export default function Home() {
   return (
     <>
       <main className="py-20">
-        <section className="hero text-center text-[#000000]">
-          <div className=" text-3xl font-semibold">
-            আপনার দক্ষতা বাড়ান এবং সফল ক্যারিয়ারের পথে অগ্রসর হন
-          </div>
-          <div className="text-[#5E17EB] text-[40px] font-bold">
-            আপনার ফ্রিল্যান্সিং ক্যারিয়ার কে নেক্সট লেভেলে নিয়ে যেতে চান?
-          </div>
-          <p className="text-xl font-medium leading-10">
-            বিশেষজ্ঞদের গাইড করা কোর্সসমূহের মাধ্যমে ঘরে বসে শেখার সুবিধা পান।
-            সহজেই নিজের দক্ষতা উন্নত করুন।
-          </p>
-          <div className="heading text-[#1D0079] text-[80px] font-bold font-[Poppins]">
-            Lead Generation Mastery
-          </div>
-          <p className="text-[25px] font-normal font-[Poppins]">
-            From Basics to Digital Marketing
-          </p>
-        </section>
+        <Header />
         <div className="video section text-center flex items-center justify-center py-10">
           <iframe
-            className="rounded-2xl lg:w-[40%]"
+            className="rounded-2xl lg:w-[40%] w-full"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/SGmmiq70uk4?si=oTFRgoTO9Sntd2cu"
@@ -64,7 +50,7 @@ export default function Home() {
             স্পষ্টভাবে পৌঁছে দিতে পারে। চলুন দেখে নেই, কীভাবে এটি আপনার
             ক্যারিয়ারকে অন্য এক লেভেলে নিয়ে যেতে পারে।
           </div>
-          <div className="grid grid-cols-2 gap-5 items-stretch justify-center w-[70%] m-auto my-10">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto my-10">
             <Card
               img={Futureimg}
               heading={"ফিউচার ইজ লীডস"}
@@ -96,7 +82,7 @@ export default function Home() {
               bg={"white"}
             />
           </div>
-          <div className="grid grid-cols-1 gap-5 items-stretch justify-center w-[70%] m-auto my-10">
+          <div className="grid grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto my-10">
             <Card
               img={businessgrow}
               imgsize={"small"}
@@ -115,7 +101,7 @@ export default function Home() {
               bg={"white"}
             />
           </div>
-          <div className="grid grid-cols-2 gap-5 items-stretch justify-center w-[70%] m-auto my-10">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto my-10">
             <Card
               img={Futureimg}
               heading={"ফিউচার ইজ লীডস"}
@@ -157,7 +143,7 @@ export default function Home() {
             ​ <span className="highlight">ফিন্যান্সিয়াল ফ্রিডম</span>{" "}
             <span className="leading-[65px]">পেলাম</span>
           </div>
-          <div className="grid lg:grid-cols-2 gap-5 items-stretch justify-center lg:w-[70%] m-auto">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto">
             <div className="content text-xl ">
               Hello everyone, <br />
               আমি আলী ফিয়াদ রুদ্র, কাজ করছি ফুলটাইম ফ্রিল্যান্স ডিজিটাল
@@ -174,7 +160,7 @@ export default function Home() {
             </div>
             <div className="image">
               <Image
-                className="w-[84%] rounded-[20px]"
+                className="lg:w-[84%] w-full rounded-[20px]"
                 src={client1}
                 alt="client"
               />
@@ -182,7 +168,7 @@ export default function Home() {
           </div>
         </div>
         {/* Review-- */}
-        <div className="grid lg:grid-cols-2 gap-5 items-stretch justify-center lg:w-[70%] m-auto py-20">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto py-20">
           <div className="image h-[]">
             <Image src={review} className="rounded-2xl" alt="client" />
           </div>
@@ -205,7 +191,7 @@ export default function Home() {
                   <span className="highlight">সবচেয়ে এডভান্স এবং ইউনিক?</span>{" "}
                 </div>
 
-                <div className="grid lg:grid-cols-2 gap-5 items-stretch justify-center lg:w-[70%] m-auto py-5">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto py-5">
                   <Card
                     img={Futureimg}
                     heading={"ফিউচার ইজ লীডস"}
@@ -237,7 +223,7 @@ export default function Home() {
                     }
                   />
                 </div>
-                <div className="grid lg:grid-cols-3 gap-5 items-stretch justify-center lg:w-[70%] m-auto py-5">
+                <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto py-5">
                   <Card
                     img={Futureimg}
                     heading={"ফিউচার ইজ লীডস"}
@@ -284,7 +270,7 @@ export default function Home() {
                     }
                   />
                 </div>
-                <div className="grid lg:grid-cols-2 gap-5 items-stretch justify-center lg:w-[70%] m-auto py-5">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 items-stretch justify-center lg:w-[70%] w-full m-auto py-5">
                   <Card
                     img={Futureimg}
                     heading={"ফিউচার ইজ লীডস"}
@@ -320,6 +306,43 @@ export default function Home() {
             </>
           }
         />
+        {/* FAQ */}
+        <div className="lg:w-[70%] w-full m-auto py-5">
+          <div className="heading text-[50px] font-[Poppins] font-extrabold flex gap-2 items-center justify-center pt-10 pb-5">
+            <span className="leading-[65px]">Frequently Asked</span> ​{" "}
+            <span className="highlight">Questions...</span>{" "}
+          </div>
+          <Accordion Item={
+              <>
+                <Accordionitem
+                  title="Canva Pro কী এবং এটি কেন ব্যবহার করব?"
+                  content="Canva Pro Canva-এর একটি প্রিমিয়াম সংস্করণ যা প্রিমিয়াম টেমপ্লেট, আনলিমিটেড ক্লাউড স্টোরেজ, টিম সহযোগিতা টুলস এবং উন্নত ডিজাইন টুলস সরবরাহ করে। এটি পেশাদার, ব্যবসায়ী এবং ক্রিয়েটরদের জন্য আদর্শ, যারা তাদের ডিজাইন আরও আকর্ষণীয় করতে চান।"
+                  checked={true}
+                />
+                <Accordionitem
+                  title="Canva Pro ব্যবহার করার জন্য কি ডিজাইনের অভিজ্ঞতা প্রয়োজন?"
+                  content="না, Canva Pro এমনভাবে ডিজাইন করা হয়েছে যাতে এটি সহজ এবং ব্যবহারকারী-বান্ধব হয়। এটি নতুনদের এবং পেশাদারদের জন্যও উপযোগী, কারণ এতে ড্র্যাগ-এন্ড-ড্রপ টুলস এবং কাস্টমাইজযোগ্য টেমপ্লেট রয়েছে।"
+                />
+                <Accordionitem
+                  title="Canva Pro-তে কী কী ফিচার অন্তর্ভুক্ত আছে?"
+                  content="Canva Pro-তে প্রিমিয়াম টেমপ্লেট, মিলিয়ন মিলিয়ন স্টক ফটো, ভিডিও এবং অডিও, ব্যাকগ্রাউন্ড রিমুভার টুল, ব্র্যান্ড কিট, ম্যাজিক রিসাইজ এবং আরও অনেক ফিচার রয়েছে যা আপনার কাজকে আরও সহজ এবং কার্যকরী করবে।"
+                />
+                <Accordionitem
+                  title="আমি কি আমার টিমের সাথে Canva Pro-তে কাজ করতে পারবো?"
+                  content="হ্যাঁ, Canva Pro-তে টিম সহযোগিতা করার সুবিধা রয়েছে। আপনি ডিজাইন শেয়ার করতে, ব্র্যান্ড কিট তৈরি করতে এবং রিয়েল-টাইমে একসাথে কাজ করতে পারবেন।"
+                />
+                <Accordionitem
+                  title="Canva Pro-এর দাম কত?"
+                  content="Canva Pro একটি সাশ্রয়ী মূল্যে মাসিক বা বার্ষিক সাবস্ক্রিপশনে পাওয়া যায়। বিস্তারিত জানার জন্য বা বিশেষ অফার পেতে আমাদের সাথে যোগাযোগ করুন।"
+                />
+                <Accordionitem
+                  title="Canva Pro শুরু করার পদ্ধতি কী?"
+                  content="Canva Pro ব্যবহার শুরু করতে, সরাসরি সাবস্ক্রাইব করতে পারেন অথবা আমাদের সার্ভিসের মাধ্যমে সাবস্ক্রিপশন কিনতে পারেন। আমরা আপনাকে সেটআপ এবং অ্যাক্টিভেশনে সাহায্য করব যাতে আপনি সহজেই ডিজাইন তৈরি করতে পারেন।"
+                />
+              </>
+            }
+          />
+        </div>
       </main>
     </>
   );
